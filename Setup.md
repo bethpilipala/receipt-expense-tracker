@@ -1,16 +1,36 @@
 # AI Receipt Expense Tracker Setup
 
-## Step 1: Create Your Own Copy of the Spreadsheet
+## Step 1: Create Your Spreadsheet
 
 Open the spreadsheet template:
 
-**[INSERT YOUR SPREADSHEET TEMPLATE LINK HERE]**
+**[INSERT SPREADSHEET TEMPLATE LINK HERE]**
 
 Choose:
 
 File → Make a copy
 
 Create a copy in your own Google Drive.
+
+Or:
+
+If you'd rather create your own sheet from scratch, include at minimum the following tabs with these columns:
+
+**Transactions**
+```text
+Receipt ID | Date | Month | Merchant | Amount | Category | Confidence | Notes
+```
+
+**Items**
+```text
+Receipt ID | Date | Month | Merchant | Item | Quantity | Price | Category | Confidence
+```
+
+**Gemini Logs**
+```text
+Timestamp | File Name |	Raw Response
+```
+
 
 ---
 
