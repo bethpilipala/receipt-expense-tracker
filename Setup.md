@@ -4,7 +4,7 @@
 
 Open the spreadsheet template:
 
-**[INSERT SPREADSHEET TEMPLATE LINK HERE]**
+[Automated Expense Tracker](https://docs.google.com/spreadsheets/d/1e1d3XPAOXEnXdnaxaHdGvGkIvosY8t23wcGMFkEe6Mg/edit?usp=sharing)
 
 Choose:
 

@@ -18,7 +18,6 @@ This project allows you to:
   - Individual items
 - Categorize purchases.
 - Store everything in Google Sheets.
-- Compare spending against your budget.
 
 The goal is to make expense tracking simple enough that you'll actually keep doing it.
 
@@ -30,10 +29,6 @@ The goal is to make expense tracking simple enough that you'll actually keep doi
 
 - Upload receipt images or screenshots and let AI extract the information.
 
-### Budget Tracking
-
-- Track spending against category budgets.
-
 ### Historical Reporting
 
 - Keep all transactions in one dataset for long-term analysis.
@@ -41,15 +36,6 @@ The goal is to make expense tracking simple enough that you'll actually keep doi
 ### Item-Level Detail
 
 - See exactly what was purchased, not just the receipt total.
-
-### Manual Income Tracking
-
-Track:
-- Paychecks
-- Reimbursements
-- Refunds
-- Gifts
-- Any other incoming money
 
 ---
 
