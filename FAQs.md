@@ -54,6 +54,16 @@ See the setup guide for trigger instructions.
 
 ---
 
+## Will this overwrite my existing data?
+
+No.
+
+The script only appends new transactions to the spreadsheet.
+
+Your existing budget categories, formulas, and historical transactions are not modified unless you manually edit them.
+
+---
+
 ## How do I modify the expense categories?
 
 Categories are stored directly in the spreadsheet but are also included in the prompt given to the AI.
@@ -101,13 +111,54 @@ For best results:
 
 ---
 
-## Will this overwrite my existing data?
+## What does the Confidence column mean?
 
-No.
+Confidence is the AI's estimate of how certain it is about the category assignment.
 
-The script only appends new transactions to the spreadsheet.
+Examples:
 
-Your existing budget categories, formulas, and historical transactions are not modified unless you manually edit them.
+| Confidence | Meaning |
+|------------|---------|
+| 0.95-1.00 | Very confident |
+| 0.80–0.94 | Likely correct |
+| 0.60–0.79 | Review recommended |
+| Below 0.6 | Verify manually |
+
+Confidence is only an estimate. A high confidence score does not guarantee the category is correct.
+
+Always review important transactions.
+
+---
+
+## Why does a transaction have a low confidence score?
+
+Low confidence scores can occur when:
+
+- The merchant is unfamiliar.
+- The receipt is blurry.
+- The purchase could fit multiple categories.
+- The receipt contains limited information.
+
+Examples:
+
+- Costco purchases may contain groceries, clothing, electronics, and household items.
+- Walmart purchases may span multiple budget categories.
+
+In these cases the AI may be less certain about the correct category.
+
+---
+
+## Why doesn't the transaction total match the sum of the items?
+
+Some receipts contain:
+
+- Sales tax
+- Discounts
+- Coupons
+- Fees
+- Rounding differences
+
+The transaction total comes directly from the receipt's final total, which is generally the most accurate value for budgeting purposes.
 
 ---
 
