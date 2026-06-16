@@ -104,7 +104,7 @@ Delete any starter code.
 
 Download the Apps Script file from this repository:
 
-**[INSERT APPS SCRIPT FILE LINK HERE]**
+[Apps Script Code](Code.gs)
 
 Copy the entire contents into Apps Script.
 
